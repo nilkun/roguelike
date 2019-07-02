@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbody {
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.top {
+    /* align-content: center;
+    justify-content: center; */
+    text-align: center;
+    /* padding:  */
+    width: 100%;
+    height: 5%;
+}
+.game {
+    width: 100%;
+    height: 90%;
+    display: flex;    
+}
+.left {
+    text-align: center;
+    /* box-sizing: border-box; */
+    padding: 2em;
+    width: 15%;
+    height: 95%;
+}
+.playername {
+    background-color: black;
+    margin: 2% 2% 0 2%;
+    color: white;
+    height: 4%;
+}
+.stats {
+    height: 40%;
+    margin: 0 2% 1% 2%;
+    background-color: darkgray;
+    width: 96%;
+}
+.statsbox {
+    display: flex;
+    margin: 2.5%;
+    padding: 5%;
+    width: 95%;
+    background-color: white;
+    height: 85%;
+}
+.statNames {
+    width: 80%;
+    text-align: left;
+}
+.statNumbers {
+    width: 20%;
+    text-align: right;
+}
+
+.sbleft {    
+    text-align: left;
+}
+.sbright {
+
+    text-align: right;
+}
+.messages {
+    height: 50%;
+    margin: 2%;
+    background-color: darkgray;
+}
+.messagebox {
+    margin: 2.5%;
+    text-align: left;
+    padding: 5%;
+    width: 95%;
+    background-color: white;
+    height: 85%;
+}
