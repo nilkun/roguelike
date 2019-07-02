@@ -26,7 +26,6 @@ const level = new Level(settingsX, settingsY);
 
 const viewport = new Viewport(settingsX, settingsY);
 const renderer = viewport.context;
-// console.log(viewport.canvas.height)
 const player = new Player(size);
 
 const loop = () => {
